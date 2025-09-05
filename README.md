@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there, Rangga here 👋
 <!--START_SECTION:badges-->
 <a href="https://www.credly.com/badges/293fca95-154b-4cec-857e-6b1b66a73df9" title="Data Classification and Summarization Using IBM Granite"><img src="https://images.credly.com/size/80x80/images/40a652a3-d423-4874-a16d-31a5695c9dc1/BadgeEmblem_DataClassificationAndSummarizationUsingIBMGranite.png" alt="Data Classification and Summarization Using IBM Granite" width="80" height="80"></a>
 <a href="https://www.credly.com/badges/f2a1f318-5861-4917-8102-f481e7e5d616" title="AWS Academy Graduate - AWS Academy Machine Learning Foundations"><img src="https://images.credly.com/size/80x80/images/254b883a-44a3-4cec-b6f2-946a80522b39/image.png" alt="AWS Academy Graduate - AWS Academy Machine Learning Foundations" width="80" height="80"></a>
