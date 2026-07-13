@@ -1,4 +1,8 @@
-# Hi there, Rangga here 👋
+// build-readme.js - Generates final README.md with dynamic stats
+const fs = require('fs');
+const path = require('path');
+
+const template = `# Hi there, Rangga here 👋
 
 <!--START_SECTION:badges-->
 <a href="https://www.credly.com/badges/3ef4ab39-b369-4cdf-beeb-75e5e59ca1ec" title="Google Data Analytics Professional Certificate (v2)"><img src="https://images.credly.com/size/80x80/images/88c25fa4-9007-42cc-b9c5-16441a878507/GCC_badge_DA_1000x1000.png" alt="Google Data Analytics Professional Certificate (v2)" width="80" height="80"></a>
@@ -82,12 +86,12 @@
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| [`hedjo`](https://github.com/ngampus/hedjo) | SaaS Carbon Accounting (Scope 1/2/3) for Indonesia | TypeScript, Cloud Run, GCP | 🚀 Live |
-| [`daytona-preview-env-demo`](https://github.com/ngampus/daytona-preview-env-demo) | Daytona SDK preview environments | Python, Daytona | 🔧 Active |
-| [`ci-cd-showcase`](https://github.com/ngampus/ci-cd-showcase) | Multi-platform CI/CD pipeline comparison | GH Actions, GitLab CI, Jenkins | 📦 Building |
-| [`iac-terraform-aws`](https://github.com/ngampus/iac-terraform-aws) | Terraform AWS modules, multi-env, policy-as-code | Terraform, OPA, Terratest | 📦 Building |
-| [`k8s-platform`](https://github.com/ngampus/k8s-platform) | K8s platform engineering (CAPI, Crossplane, operators) | Go, Kubebuilder, CAPI | 📦 Building |
-| [`observability-stack`](https://github.com/ngampus/observability-stack) | LGTM + OpenTelemetry + Chaos Engineering | Prometheus, Grafana, Tempo, Loki | 📦 Building |
+| [\`hedjo\`](https://github.com/ngampus/hedjo) | SaaS Carbon Accounting (Scope 1/2/3) for Indonesia | TypeScript, Cloud Run, GCP | 🚀 Live |
+| [\`daytona-preview-env-demo\`](https://github.com/ngampus/daytona-preview-env-demo) | Daytona SDK preview environments | Python, Daytona | 🔧 Active |
+| [\`ci-cd-showcase\`](https://github.com/ngampus/ci-cd-showcase) | Multi-platform CI/CD pipeline comparison | GH Actions, GitLab CI, Jenkins | 📦 Building |
+| [\`iac-terraform-aws\`](https://github.com/ngampus/iac-terraform-aws) | Terraform AWS modules, multi-env, policy-as-code | Terraform, OPA, Terratest | 📦 Building |
+| [\`k8s-platform\`](https://github.com/ngampus/k8s-platform) | K8s platform engineering (CAPI, Crossplane, operators) | Go, Kubebuilder, CAPI | 📦 Building |
+| [\`observability-stack\`](https://github.com/ngampus/observability-stack) | LGTM + OpenTelemetry + Chaos Engineering | Prometheus, Grafana, Tempo, Loki | 📦 Building |
 
 ---
 
@@ -110,4 +114,8 @@
 
 ---
 
-*Last updated: $(date -u +"%Y-%m-%d %H:%M UTC")* — *Auto-generated via GitHub Actions*
+*Last updated: ${new Date().toISOString().split('T')[0]} ${new Date().toISOString().split('T')[1].slice(0,5)} UTC* — *Auto-generated via GitHub Actions*
+`;
+
+fs.writeFileSync(path.join(__dirname, 'README.md'), template);
+console.log('README.md generated successfully');
