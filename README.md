@@ -63,6 +63,7 @@
 **CI/CD & Automation**
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=github-actions&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-%23FC6D26.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 **Observability**
 ![Prometheus](https://img.shields.io/badge/Prometheus-%23E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white)
@@ -84,7 +85,7 @@
 |---------|-------------|-------|--------|
 | [`hedjo`](https://github.com/ngampus/hedjo) | SaaS Carbon Accounting (Scope 1/2/3) for Indonesia | TypeScript, Cloud Run, GCP | 🚀 Live |
 | [`daytona-preview-env-demo`](https://github.com/ngampus/daytona-preview-env-demo) | Daytona SDK preview environments | Python, Daytona | 🔧 Active |
-| [`ci-cd-showcase`](https://github.com/ngampus/ci-cd-showcase) | Multi-platform CI/CD pipeline comparison | GH Actions, GitLab CI, Jenkins | 📦 Building |
+| [`ci-cd-showcase`](https://github.com/ngampus/ci-cd-showcase) | Multi-platform CI/CD pipeline comparison — [showcase.letssee.my.id](https://showcase.letssee.my.id) | GH Actions, GitLab CI, Jenkins, Cloudflare Workers | 🚀 Live |
 | [`iac-terraform-aws`](https://github.com/ngampus/iac-terraform-aws) | Terraform AWS modules, multi-env, policy-as-code | Terraform, OPA, Terratest | 📦 Building |
 | [`k8s-platform`](https://github.com/ngampus/k8s-platform) | K8s platform engineering (CAPI, Crossplane, operators) | Go, Kubebuilder, CAPI | 📦 Building |
 | [`observability-stack`](https://github.com/ngampus/observability-stack) | LGTM + OpenTelemetry + Chaos Engineering | Prometheus, Grafana, Tempo, Loki | 📦 Building |
@@ -102,7 +103,7 @@
 ## 🎯 90-Day DevOps Fulfillment Progress
 
 - **Day 1-3**: Profile automation, TIL repo, project scaffolding ✅
-- **Day 4-30**: CI/CD Showcase + GitOps with ArgoCD 🔄
+- **Day 4-30**: CI/CD Showcase + GitOps with ArgoCD ✅
 - **Day 31-60**: IaC Terraform + K8s Platform Engineering 📅
 - **Day 61-90**: Observability Stack + DevSecOps Pipeline + Polish 📅
 
