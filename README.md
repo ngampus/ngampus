@@ -21,7 +21,7 @@
 - 👯 **Open to**: DevOps collaborations, platform engineering, cloud-native projects
 - 💬 **Ask me about**: AWS, Azure, GCP, Terraform, Kubernetes, CI/CD, Observability
 - 📫 **Connect**: [LinkedIn](https://linkedin.com/in/rangga-chandra-nugraha) | [ORCID](https://orcid.org/0009-0004-0729-4299)
-- ⚡ **Fun fact**: Building carbon accounting SaaS ([hedjo](https://github.com/ngampus/hedjo)) with TypeScript + Google Cloud Run
+- ⚡ **Fun fact**: Building carbon accounting SaaS ([hedjo](https://github.com/ngampus/hedjo)) with TypeScript — now live on [Cloudflare Workers](https://hedjo.letssee.my.id)
 
 ---
 
@@ -83,7 +83,7 @@
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
-| [`hedjo`](https://github.com/ngampus/hedjo) | SaaS Carbon Accounting (Scope 1/2/3) for Indonesia | TypeScript, Cloud Run, GCP | 🚀 Live |
+| [`hedjo`](https://github.com/ngampus/hedjo) | SaaS Carbon Accounting (Scope 1/2/3) for Indonesia | TypeScript, Cloudflare Workers, Vite | 🚀 Live |
 | [`daytona-preview-env-demo`](https://github.com/ngampus/daytona-preview-env-demo) | Daytona SDK preview environments | Python, Daytona | 🔧 Active |
 | [`ci-cd-showcase`](https://github.com/ngampus/ci-cd-showcase) | Multi-platform CI/CD pipeline comparison — [showcase.letssee.my.id](https://showcase.letssee.my.id) | GH Actions, GitLab CI, Jenkins, Cloudflare Workers | 🚀 Live |
 | [`iac-terraform-aws`](https://github.com/ngampus/iac-terraform-aws) | Terraform AWS modules, multi-env, policy-as-code | Terraform, OPA, Terratest | 📦 Building |
